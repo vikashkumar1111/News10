@@ -1,0 +1,79 @@
+
+.hide, .hidden{
+  display: none;
+}
+.nav-sidebar>.nav-item {
+    margin-bottom: 15px;
+}
+.direct-chat-messages{
+    height: 346px;
+}
+span.tag.label.label-info {
+    background-color: #343a40;
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+#subcategory.table-head-fixed thead tr:nth-child(1) th{
+    box-shadow: inset 0 1px 0 #17a2b8, inset 0 -1px 0 #17a2b8;
+}
+#category.table-head-fixed thead tr:nth-child(1) th{
+    box-shadow: inset 0 1px 0 #6610f2, inset 0 -1px 0 #6610f2;
+}
+#roles.table-head-fixed thead tr:nth-child(1) th{
+    box-shadow: inset 0 1px 0 #01ff70, inset 0 -1px 0 #01ff70;
+}
+#permissions.table-head-fixed thead tr:nth-child(1) th{
+    box-shadow: inset 0 1px 0 #f012be, inset 0 -1px 0 #f012be;
+}
+hr#access-control {
+    border-top: 1px solid #ffc107;
+}
+#flipcard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-smoothing: antialiased;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+  }
+  
+  .flipped {
+    transform: rotateY(180deg);
+  }
+  #category-modal-header{
+    border-bottom: 10px solid #6610f2!important;
+  }
+  .bb-25-y{
+    border-bottom: 25px solid #ffc107;
+  }
+  .statuslabel {
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+label, select {
+  cursor: pointer;
+}
+  
