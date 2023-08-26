@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>News Express</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/element.css" rel="stylesheet">
-	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/element.css') }}" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.min.css') }}" />
     <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
 	
 	
-   <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+   <script src="{{ asset('js/jquery-2.1.1.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 
   </head>
 
@@ -92,19 +92,19 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item">
-          <img src="img/1.jpg" alt="...">
+          <img src="{{ asset('img/1.jpg') }}" alt="...">
           <div class="carousel-caption">
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br> Integer nec odionec odio. cursus ante dapibus</h2>
           </div>
         </div>
         <div class="item active">
-          <img src="img/2.jpg" alt="...">
+          <img src="{{ asset('img/2.jpg') }}" alt="...">
           <div class="carousel-caption">
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>  Integer nec odionec odio. cursus ante dapibus</h2>
           </div>
         </div>
         <div class="item">
-          <img src="img/3.png" alt="...">
+          <img src="{{ asset('img/3.png') }}" alt="...">
           <div class="carousel-caption">
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>  Integer nec odionec odio. cursus ante dapibus</h2>
           </div>
@@ -508,7 +508,7 @@
 	</div>
    </div>
 </section>
-<script src="js/cbpAnimatedHeader.js"></script>
-<script src="js/classie.js"></script> 
+<script src="{{ asset('js/cbpAnimatedHeader.js') }}"></script>
+<script src="{{ asset('js/classie.js') }}"></script> 
 </body>
 </html>

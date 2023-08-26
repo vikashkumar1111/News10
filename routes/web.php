@@ -17,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('news10', function () {
+    return view('index');
+});
 Route::get('/', function () {
     return view('admin.dashboard');
 });
